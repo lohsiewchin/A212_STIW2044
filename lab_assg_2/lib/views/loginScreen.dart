@@ -128,7 +128,7 @@ class _loginScreenState extends State<loginScreen> {
                 ),
                  GestureDetector(
                         child: const Text("Don't have an account? Register!",
-                            style: TextStyle(color: Colors.black, fontSize:20)),
+                            style: TextStyle(color: Colors.black, fontSize:15)),
                         onTap: () {
                           Navigator.of(context).pushReplacement(
                               MaterialPageRoute(
