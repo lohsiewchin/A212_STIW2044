@@ -136,7 +136,8 @@ class _cartScreenState extends State<cartScreen> {
                                             _updateCart(index, "-");
                                             },
                                             child: const Text("-")),
-                                            Text(cartList[index].cart_qty.toString()),
+                                            Text(cartList[index].cart_qty
+                                            .toString()),
                                             TextButton(
                                               onPressed: () {
                                                 _updateCart(index, "+");
