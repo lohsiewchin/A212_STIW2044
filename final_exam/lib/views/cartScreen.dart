@@ -219,7 +219,7 @@ class _cartScreenState extends State<cartScreen> {
             totalpayable =
                 totalpayable + double.parse(element.price_total.toString());
           }
-          titlecenter = qty.toString() + " Products in your cart";
+          titlecenter = qty.toString() + " Subjects in your cart";
           setState(() {});
         }
       } else {
